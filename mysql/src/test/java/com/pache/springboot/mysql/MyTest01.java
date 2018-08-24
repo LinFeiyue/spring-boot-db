@@ -40,6 +40,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @AutoConfigureMockMvc
 public class MyTest01 {
 
+    //使用日志打印显示信息，该类来源于 slf4j.jar
     private static Logger logger = LoggerFactory.getLogger(MyTest01.class);
 
     @Autowired
